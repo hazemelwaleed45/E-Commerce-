@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+
+
+    <link rel='stylesheet' type='text/css' media='screen' href='Card.css'>
+
+</head>
+<body>
+    
+
+  <nav id="NavBar">
+    <ul>
+      <li><a href="#home" onclick="OpenHomePage()">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#products" onclick="OpenProduts()">products</a></li>
+      <li><a href="#UserName" id="LoginName"> </a></li>
+      <li><a href="#MyCard" onclick="OpenMyCard()">My Card</a></li>
+
+      <li><a href="#Items" id="NumberCards"></a></li>
+      <li><input type="color" id="InputColor" onchange="changeColor()">Themes</li>
+      <li><a href="#LogOut" onclick="LogOut()">LogOut</a></li>
+    </ul>
+  </nav>
+  
+   <div>
+       <h1>Items List</h1>
+    <table>
+      <thead>
+          <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Actions</th>
+          </tr>
+      </thead>
+      <tbody id="ItemsTable">
+          
+      </tbody>
+  </table>
+   </div>
+
+   <button id="scrollToTopBtn" onclick="scrollToTop()">Top</button>
+   
+  <footer>
+    <section id="icons">
+      <i class="fa-brands fa-twitter"></i>
+
+      <i class="fa-brands fa-facebook"></i>
+
+      <i class="fa-brands fa-instagram"></i>
+
+      <i class="fa-brands fa-linkedin"></i>
+
+      <i class="fa-brands fa-github"></i>
+    </section>
+    <section id="MadeBy">
+      <p id="SiteMade">Site Made With : </p>
+      <p id="Hazem">7AZOOM.Jr</p>
+
+    </section>
+  </footer>
+
+  <script src="./Card.js"></script>
+
+   
+
+
+</body>
+</html>

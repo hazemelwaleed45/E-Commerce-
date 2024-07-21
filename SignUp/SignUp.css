@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f3f3f4, #6f90d6);
+}
+
+.SignUpForm {
+    width: 30%;
+    height: 100%;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: linear-gradient(135deg, #9494c5, #1e3d81);
+}
+
+h1 {
+    color: rgb(31, 8, 144);
+    display: inline;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+p {
+    color: black;
+    display: inline;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#End {
+    color: green;
+    font-size: 23px;
+}
+
+div {
+
+    padding: 5px;
+    position: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+
+}
+
+span {
+    font-size: 17px;
+    color: rgb(235, 9, 9);
+}
+
+.error {
+    color: red;
+
+}
+
+
+
+button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#CountrySelector {
+    width: 200px;
+    height: 30px;
+
+}
+
+#Submit {
+    background-color: rgb(25, 231, 10);
+    font-style: italic;
+    color: aliceblue;
+}
+
+#Reset {
+    background-color: rgb(153, 150, 10);
+    font-style: italic;
+    color: aliceblue;
+}
+
+#Backbtn {
+    background-color: rgb(243, 42, 7);
+    font-style: italic;
+    color: aliceblue;
+}
+
+#male {
+    width: 50px;
+    height: 20px;
+
+}
+
+#female {
+    width: 50px;
+    height: 20px;
+
+}

@@ -1,0 +1,145 @@
+body{
+    background-color: white;
+}
+nav {
+
+    padding: 10px;
+    background-color: #919191;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: fixed;
+}
+
+
+nav ul {
+    list-style-type: none;
+    /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* Remove underline */
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+button {
+	cursor: pointer;
+	width: 100px;
+	padding: 5px;
+	height: 50px;
+	border: 1px solid #ccc;
+	display: inline;
+	background-color: rgb(173, 170, 175);
+	margin: 30px;
+    position: relative;
+}
+
+h1
+{
+      color: #8c2a2a;
+      text-align: center;
+}
+
+
+img {
+	width: 400px;
+	height: 400px;
+    display: block;
+	object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 10px;
+    text-align: center;
+}
+.Show{
+    
+    align-items: center;
+    margin: 100px;
+    padding: 0%;
+    
+}
+.btns{
+    align-items: center;
+    padding-left: 40%;
+
+}
+/* .btn1{
+    width: 50px;
+    height: 20px;
+}
+.btn2{
+    width: 50px;
+    height: 20px;
+}
+
+.photos{
+    width: 900px;
+    height: 800px;
+} */
+
+
+
+#scrollToTopBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 100; 
+    background-color: #555; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 18px; 
+}
+
+#scrollToTopBtn:hover {
+    background-color: #333; 
+}
+
+
+footer{
+    margin: auto;
+    text-align: center;
+}
+#SiteMade{
+    color: #948d8d;
+    display: inline;
+}
+#icons{
+    height: 100px;
+}
+#Hazem{
+    color: #111;
+    display: inline;
+}
+#MadeBy{
+    display: inline;
+    margin: auto;
+    height: 100px;
+}
+
+i{
+    height: 5%;
+    width: 5%;
+    font-size: 35px;
+    border: 50%;
+}
